@@ -5,15 +5,18 @@
 
 
 ## Description
-This project uses Django two set up polls.
+The basic poll application built through the Django tutorial allows users to view and vote in different polls via a 
+public site, while providing an administrative backend for managing these polls. 
+This setup enables both interactive user engagement and efficient administrative control.
 
 ### Dependencies
 
 
 ## Getting Started
 
-Run the server
-python manage.py runserver
+python manage.py makemigrations 
+python manage.py migrate 
+python manage.py createsuperuser
 
 
 ### Install requirements with pip
