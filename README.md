@@ -22,14 +22,14 @@ python manage.py createsuperuser
 ### Install requirements with pip
 
 ```
-pip install -r equirements.txt
+pip install -r requirements.txt
 ```
 
 
 ### Executing program
 
 ```
-python main.py
+python manage.py runserver
 ```
 
 ## Authors
